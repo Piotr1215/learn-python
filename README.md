@@ -3,7 +3,7 @@
 ## Recommended extensions for VS Code
 
 - Python
-- Pyright - a little bit of type checking
+- Pylance - a little bit of type checking
 - Test explorer UI - not python specific, but great extension for running tests
 - Flake8 - linter for Python
 
@@ -24,3 +24,8 @@ Follow pep8.org style guide.
 ## Virtualize the environment
 
 Use devcontainer to virtualize your environment and install all the dependencies. This is better than venv
+
+## Use click
+
+Parse arguments using decorators with default values
+
