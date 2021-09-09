@@ -1,11 +1,23 @@
 # Learning python for C# developer
 
+## Learning resources
+
+- [W3c python tutorial](https://www.w3schools.com/python/default.asp)
+- [Exercises](https://www.w3schools.com/python/exercise.asp)
+- [DevOps Automation in Python](https://www.coursera.org/learn/devops-build-automation-python?specialization=python-scripting-devops)
+- [Python automation in linux](https://linuxcourse.rutgers.edu/html/Lesson_11.html)
+
 ## Recommended extensions for VS Code
 
 - Python
 - Pylance - a little bit of type checking
 - Test explorer UI - not python specific, but great extension for running tests
 - Flake8 - linter for Python
+
+## Some random packages
+
+- scrape web pages [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+- [HTTP stuff](https://docs.python-requests.org/en/master/)
 
 ## Goal
 
@@ -23,6 +35,9 @@ C# leans more to imperative style (although it gets more and more functional upd
 - type casting `int()` `float()`
 - both tabs and spaces are acceptable for indentation
 - collections are zero indexed
+- ptyhon has page similar to nuget.org, https://pypi.org/
+- standard library functions: https://www.w3schools.com/python/python_ref_functions.asp
+- all keywords: https://www.w3schools.com/python/python_ref_keywords.asp
 
 ### Syntax
 
@@ -93,6 +108,40 @@ def metoda(param1, param2 = "costam"): # can have default values
     return body
 ```
 
+#### Lambda
+
+```python
+x = lambda a, b: a + b
+#lambda arguments : expression
+```
+
+#### Exception handling
+
+```python
+try:
+  f = open("demofile.txt")
+  try:
+    f.write("Lorum Ipsum")
+  except:
+    print("Something went wrong when writing to the file")
+  finally:
+    f.close()
+except:
+  print("Something went wrong when opening the file")
+```
+
+## OOP
+
+Pretty similar to C#, there are constructors, objects are created without `new` keyword, and methods are called with `.`
+
+Inheritance syntax
+
+```python
+class Student(Person):
+  def __init__(self, fname, lname):
+    #add properties etc.
+```
+
 ## Style guidelines
 
 Follow pep8.org style guide.
@@ -129,4 +178,8 @@ Ptyhon institute
 
 ### Can a list hold elements of different data types?
 
-### What keyword makes a variable globally accessible
+### What keyword makes a variable globally accessible?
+
+### What is `pass` keyword and when to use it?
+
+### How to make child class inherit all methods and properties from parent class?
