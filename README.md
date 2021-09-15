@@ -6,6 +6,7 @@
 - [Exercises](https://www.w3schools.com/python/exercise.asp)
 - [DevOps Automation in Python](https://www.coursera.org/learn/devops-build-automation-python?specialization=python-scripting-devops)
 - [Python automation in linux](https://linuxcourse.rutgers.edu/html/Lesson_11.html)
+- [Celob Curry's ALl in One Course](https://www.codebreakthrough.com/courses/ultimate-programming-all-in-one-tutorials/507617-python/1469405-python-programming-all-in-one-tutorial-series)
 
 ## Recommended extensions for VS Code
 
